@@ -5,7 +5,7 @@
 echo -n "Introduce el numero: "
 read input
 #Comprobamos si es negativo
-if [ "$input" -lt 0 ]; then  #El operador '-lt' sirve para decir si es 'menro que'
+if [ "$input" -lt 0 ]; then  #El operador '-lt' sirve para decir si es 'menor que'
 	echo "Es negativo"
 else
 	echo "No es negativo"
